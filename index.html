@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style.css">
+    <title>Param Cards</title>
+</head>
+<body>
+    <div class="main-div">
+        <div class="main">
+            <div class="banner">
+                <!-- LOGO -->
+<img src="./cover.1.jpg">
+            </div>
+
+
+
+
+
+           <div class="profile-section">
+            <div class="profile">
+
+<!-- PROFILE IMAGE -->
+
+
+                <img src="./logo.jpg">
+    
+            </div>
+            <br/>
+
+
+<!-- NAME -->
+            <h2>Vinay Kotak
+
+
+
+            </h2>
+
+            <!-- WORK -->
+
+
+            <h3> Yash Raj Films Pvt Ltd.
+
+
+
+            </h3>
+
+
+            <!-- DESCRIPTION -->
+
+
+         <h4> Human Resources And Administration Manager
+
+
+
+             
+           </h4>
+                       
+
+
+          
+
+           </div>
+           <br/>
+           <br/>
+
+<div class="social sol">
+    <div class="cal">
+
+
+
+        <!-- CALLING NUMBER -->
+
+
+       <a href="tel:+919167735517
+       "> <img src="./call.jpg" alt=""></a>
+        <p>Call</p>
+    </div>
+    <div class="cal">
+
+        <!-- SMS NUMBER -->
+
+
+        <a href="sms:+919167735517
+        ">  <img src="./sms.jpg" alt=""></a>
+        <p>SMS</p>
+    </div>
+    <div class="cal">
+
+
+
+        <!-- EMAIL ID -->
+
+        <a href="mailto:Mukesh@yashrajfilms.com
+        ">  
+              <img src="./e mail.jpg" alt="">
+        </a>
+
+        <p>E-mail</p>
+    </div>
+    <div class="cal">
+
+
+
+        <!-- WEBSITE-->
+
+        <a href="#">    <img src="./website 1.jpg" alt="">      </a>
+           <p>Website</p>
+    </div>
+
+</div>
+<br/>
+
+<div class="social sol2">
+    <div class="cal">
+
+
+        <!-- LOCATION -->
+
+        <a href="https://maps.app.goo.gl/BDkB4Qv5Vz9R7jwk7
+        ">
+            <img src="./location.jpg" alt=""></a>
+        <p>Location</p>
+    </div>
+    <div class="cal save">
+
+
+        <!-- SAVE CONTACT -->
+        <a href="https://vcard.link/card/DmLt.vcf">  <img src="./save contact.jpg" alt=""></a>
+        <p>SAVE<br/>CONTACT</p>
+    </div>
+
+    <div class="cal">
+        <!-- QR CODE -->
+
+
+        <!-- <a href="">   <img src="./Payment.png" alt="">      </a>
+        <p>Payment</p> -->
+        <div class="cal" onclick="openImage()">
+            <a href="#"><img src="./qr-code (1).png" alt=""></a>
+            <p>QR Code</p>
+        </div>
+    
+        <div id="imageContainer" onclick="closeImage()">
+            <img id="fullImage" src="" alt="">
+        </div>
+    </div>
+
+</div>
+
+
+
+<br/>
+<div class="social2">
+   
+    <div class="cal1">
+        
+
+        <!-- LINKEDIN -->
+
+
+
+        <a href="https://www.linkedin.com/in/mukesh-kanojia-25726a99?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">  <img src="./04.jpg" alt=""></a>
+       
+    </div>
+
+    <div class="cal1">
+
+        <!-- INSTAGRAM URL -->
+
+        <a href="https://www.instagram.com/mukeshkanojiaofficial?igsh=ZHc1MjU5ZmF0b3No
+        /">   <img src="./05.jpg" alt="">      </a>
+  
+    </div>
+    <div class="cal1 wa">
+
+
+        <!-- WHATSAPP NUMBER -->
+
+
+
+        <a href="https://api.whatsapp.com/send?phone=+919167735517
+        ">
+            <img src="./01.jpg" alt=""></a>
+       
+    </div>
+    <div class="cal1">
+
+        <!-- TWITTER -->
+
+        <a href="./@mukeshkanojia22">   <img src="./03.jpg" alt="">      </a>
+  
+    </div>
+    <div class="cal1">
+
+        <!-- FACEBOOK -->
+
+        <a href="https://www.facebook.com/Mukesh.kanojia14?mibextid=9R9pXO 
+        ">   <img src="./02.jpg" alt="">      </a>
+  
+    </div>
+
+</div>
+
+<div class="Powered">
+    <h4>Powered By : Param Cards</h4>
+</div>
+
+
+
+
+
+        </div>
+       
+
+    </div>
+
+
+
+    <script>
+        function openImage() {
+            var imageContainer = document.getElementById("imageContainer");
+            var fullImage = document.getElementById("fullImage");
+            
+            // Set the source of the full image
+
+
+            // QR IMG
+            fullImage.src = "./qr-code (1).png";
+
+            // Display the image container
+            imageContainer.style.display = "flex";
+        }
+
+        function closeImage() {
+            var imageContainer = document.getElementById("imageContainer");
+
+            // Hide the image container
+            imageContainer.style.display = "none";
+        }
+    </script>
+
+    
+</body>
+</html>
